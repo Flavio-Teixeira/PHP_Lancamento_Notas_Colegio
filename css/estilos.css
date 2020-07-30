@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ************ */ 
+/* *** TAGS *** */
+/* ************ */
+
+body {
+	background-color: #CCCCCC;
+}
+
+legend {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	display: block;
+}
+
+table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;	
+}
+
+/* *************** */
+/* *** Classes *** */
+/* *************** */
+
+#fundo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 794px;
+	height: 484px;
+	z-index: 8;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	background-color: #EBE9ED;
+}
+
+#cabecalho {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 308px;
+	height: 113px;
+	z-index: 1;
+	background-color: #FDD88A;
+	vertical-align: middle;
+	background-image: url(../imagens/logo_clovis.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#cabecalho_titulo {
+	position: absolute;
+	left: 308px;
+	top: 0px;
+	width: 672px;
+	height: 113px;
+	z-index: 2;
+	background-color: #FDD88A;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#corpo {
+	position: absolute;
+	left: 0px;
+	top: 114px;
+	width: 980px;
+	height: 485px;
+	z-index: 5;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	background-color: #EBE9ED;
+}
+
+#loguin {
+	position: absolute;
+	left: 341px;
+	top: 48px;
+	width: 306px;
+	height: 279px;
+	z-index: 3;
+	background-color: #EBE9ED;
+}
+
+#rodape {
+	position: absolute;
+	left: 0px;
+	top: 601px;
+	width: 571px;
+	height: 15px;
+	z-index: 4;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	background-color: #FDD88A;
+	vertical-align: text-bottom;
+	font-style: normal;
+}
+
+#fonte {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	display: block;
+}
+
+#fonte_fundo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 180px;
+}
+
+#fonte_vermelha {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	display: block;
+	color: #FF0000;
+}
+
+#label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	display: block;
+	width: 180px;
+}
+
+#desenvolvedor {
+	position: absolute;
+	left: 571px;
+	top: 601px;
+	width: 409px;
+	height: 15px;
+	z-index: 4;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	background-color: #FDD88A;
+	vertical-align: text-bottom;
+	font-style: normal;
+	text-align: right;
+}
+
+#menu {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 183px;
+	height: 485px;
+	z-index: 6;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#area_exibicao {
+	position: absolute;
+	left: 185px;
+	top: 0px;
+	width: 794px;
+	height: 485px;
+	z-index: 7;
+}
+
+#conteudo_exibicao {
+	position: absolute;
+	left: 4px;
+	top: 18px;
+	width: 785px;
+	height: 460px;
+	z-index: 9;
+	overflow: auto;
+}
+
+#exibe_carregando {
+	position: absolute;
+	left: 321px;
+	top: 223px;
+	width: 105px;
+	height: 16px;
+	z-index: 10;
+}

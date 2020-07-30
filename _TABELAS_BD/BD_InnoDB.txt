@@ -1,0 +1,7 @@
+ALTER TABLE bimestres ENGINE = InnoDB;
+ALTER TABLE bimestre_ativo ENGINE = InnoDB;
+ALTER TABLE planilhas ENGINE = InnoDB;
+ALTER TABLE usuarios ENGINE = InnoDB;
+
+ALTER TABLE planilhas ADD CONSTRAINT planilha_bimestre_sequencial FOREIGN KEY (planilha_bimestre_sequencial) REFERENCES bimestres(bimestre_sequencial) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE planilhas ADD CONSTRAINT planilha_usuario_loguin FOREIGN KEY (planilha_usuario_loguin) REFERENCES usuarios(usuario_loguin) ON DELETE CASCADE ON UPDATE CASCADE;
